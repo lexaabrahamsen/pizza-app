@@ -1,13 +1,14 @@
 import React from "react";
-import logo from "./logo.svg";
-import "./App.css";
+
 import PizzaList from "./pizzas/PizzaList";
+import Counter from "./pizzas/Counter";
 
 class App extends React.Component {
   render() {
     return (
       <div>
         <PizzaList />
+        <Counter />
       </div>
     );
   }
